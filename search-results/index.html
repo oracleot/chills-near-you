@@ -49,7 +49,47 @@
       </div>
     </div>
   </nav>
-  <main>
+  <main class="pos-rel">
+    <div class="bg-light py-5">
+      <div class="container py-3">
+        <h3 class="text-center text-secondary">Filter by name, location or specialty</h3>
+        <div class="row mt-4 advanced-search">
+          <div class="col-md-3 col-lg-3 p-0 px-1">
+            <div class="form-group">
+              <label for="spot-name">Spot name *</label>
+              <input type="text" class="form-control" id="spot-name">
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-2 p-0 px-1">
+            <div class="form-group">
+              <label for="city">City</label>
+              <input type="text" class="form-control" id="city">
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-2 p-0 px-1">
+            <div class="form-group">
+              <label for="state">State</label>
+              <input type="text" class="form-control" id="state">
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-2 p-0 px-1">
+            <div class="form-group">
+              <label for="drink-food">Specialty</label>
+              <select class="form-control" id="drink-food">
+                <option value="Drink">Drink</option>
+                <option value="Food">Food</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-5 col-lg-1 p-0 px-1">
+            <button type="button" class="btn  btn-block btn-primary">Search</button>
+          </div>
+          <div class="col-7 col-lg-2 p-0 px-1">
+            <button type="button" class="btn  btn-block btn-warning text-white"><i class="fas fa-eraser"></i> Clear</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer>
       <div class="sub-footer pt-4 bg-footer">
         <div class="container pt-3 border-top border-bottom border-secondary">
