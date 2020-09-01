@@ -2,7 +2,7 @@
 
 > Hassle-free access to all the chillest spots near you!
 
-![screenshot](./app_screenshot_desktop_tablet.jpg)
+![screenshot](./app_screenshot_desktop_tablet.png)
 
 ![screenshot](./app_screenshot_mobile.jpg)
 
