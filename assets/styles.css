@@ -73,6 +73,10 @@ a {
   font-size: 13px;
 }
 
+.font-size-medium {
+  font-size: 36px;
+}
+
 .pos-rel {
   position: relative;
 }
