@@ -40,7 +40,6 @@ Chills Near you is an online platform where users can find all possible spots ne
 - Font Awesome
 - Stylelint
 - Webhint
--
 
 ## Live Demo
 
